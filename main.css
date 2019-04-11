@@ -1,0 +1,31 @@
+
+
+.container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.card {
+    width: 25%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: dodgerblue;
+    border-width: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px;
+    
+}
+
+.title {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightblue;
+    text-align: center;
+}
+
+.bio {
+    text-align: justify;
+}
