@@ -1,10 +1,17 @@
-
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: darkslategray;
+}
 
 .container {
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
-    
+}
+
+h1 {
+    text: bold;
+    text-align: center;
 }
 
 .card {
@@ -13,10 +20,11 @@
     border-style: solid;
     border-color: dodgerblue;
     border-width: 5px;
+    background-color: antiquewhite;
     margin: 10px;
     padding: 10px;
-    box-shadow: 10px 10px;
-    
+    box-shadow: 10px 10px;  
+    text-align: center;
 }
 
 .title {
@@ -28,4 +36,17 @@
 
 .bio {
     text-align: justify;
+}
+
+#availablity {
+    color: yellow;
+    background-color: darkgray;
+}
+
+.section2 .section3 {
+    text: bold;
+}
+
+img {
+    height: 100px;
 }
